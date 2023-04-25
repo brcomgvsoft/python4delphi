@@ -5,10 +5,19 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils,
-  Windows, Messages, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ComCtrls, ExtCtrls,
-  PythonEngine, Vcl.PythonGUIInputOutput;
+  Classes, 
+  SysUtils,
+  Windows, 
+  Messages, 
+  Graphics, 
+  Controls, 
+  Forms, 
+  Dialogs,
+  StdCtrls, 
+  ComCtrls, 
+  ExtCtrls,
+  PythonEngine, 
+  Vcl.PythonGUIInputOutput;
 
 type
   TForm1 = class(TForm)
@@ -27,11 +36,10 @@ type
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
   private
-    { Déclarations privées }
+    { DÃ©clarations privÃ©es }
   public
-    { Déclarations publiques }
+    { DÃ©clarations publiques }
   end;
-
 
 var
   Form1: TForm1;
